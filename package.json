@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:ci:local:test": "BROWSER=none start-server-and-test start http://localhost:3000 cy:run"
+    "cy:ci": "BROWSER=none start-server-and-test start http://localhost:3000 cy:run"
   },
   "eslintConfig": {
     "extends": [

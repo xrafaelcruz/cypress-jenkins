@@ -53,5 +53,5 @@ docker-compose -f docker-compose.yml up
 
 - **cy:open** - Abre a interface do Cypress
 - **cy:run** - Executa o cypress no modo headless, não abrindo interface alguma.
-- **cy:ci:local:test** -
+- **cy:ci** - Comando utilizado para continuos integration(CI).
   Executa BROWSER=none para quando o start do CRA for executado, não tentar abrir o navegador. Depois executa start-server-and-test combinado com o comando start do CRA + a url que ele irá aguardar para então poder executar cy:run.
