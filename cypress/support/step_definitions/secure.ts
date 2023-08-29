@@ -8,6 +8,6 @@ Given("I visit {string}", (route: string) => {
 Then("I see {string} message2", (expected: string) => {
   const message = SecurePage.getMessage();
   message.should((actual: string) => {
-    expect(actual).to.have.string(expected);
+    expect(actual).to.have.string("falhar");
   });
 });
