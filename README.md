@@ -2,6 +2,8 @@
 
 Esse projeto serve para testar o [Cypress](https://www.cypress.io/) com BDD + uma aplicação criada com [CRA](https://create-react-app.dev/) no pipeline do [Jenkins](https://www.jenkins.io/).
 
+Utiliza o yarn 2 como gerenciado de pacotes.
+
 ## Jenkins
 
 Foi necessário criar uma imagem docker customizada do jenkins para instalar as dependências linux que o cypress requer.
